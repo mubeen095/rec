@@ -1,0 +1,51 @@
+/*
+Theme Name: StartNext
+Theme URI: https://envytheme.com/tf-wp-demo/startp/
+Author: EnvyTheme
+Author URI: https://envytheme.com
+Description: Startups WordPress Theme
+Version: 1.2.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: startnext
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, footer-widgets, post-formats, rtl-language-support, sticky-post, custom-colors, blog 	
+*/
+
+/* Masonry */
+.grid-sizer, .grid-item {
+  width: 33.333%;
+}
+.navbar-nav a[title='Add a menu'] {
+   // visibility: hidden;
+}
+
+
+
+.navbar-brand{
+	padding-bottom: 0px !important;
+}
+
+.startp-nav.is-sticky{
+	padding:0 !important;
+}
+
+.navbar{
+	padding:0rem 1rem !important;
+}
+
+.single-box{
+	height: 800px;
+    overflow: auto;
+}
+
+
+@media only screen and (min-width: 992px) {
+	.partner-section .partner-inner .row .col-lg-2{
+		max-width:11.09%;
+	}
+	.vc_inner .prettyphoto{
+		padding: 0 0 0 208px;
+	}
+}
+
+
